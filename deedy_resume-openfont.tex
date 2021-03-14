@@ -1,0 +1,239 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Modified Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.0 (01/03/2021)
+% 
+% Author
+% Joyce Shendre(https://joyceshendre07)
+% Repository
+% https://github.com/JoyceShendre/Modified-Deedy-Resume
+% Original author of Deedy Resume:
+% Debarghya Das (http://debarghyadas.com)
+% His repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+%
+
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+\usepackage{eurosym}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Joyce}{Shendre}{ 
+\href{mailto:me@joyceshendre07@gmail.com}{\bf hi@joyceshendre07@gmail.com} | \bf +919172443091 | \urlstyle{same}\href{https://github.com/JoyceShendre}{\bf Github} |
+\urlstyle{same}\href{https://www.hackerrank.com/joyce_shendre}{\bf Hackerrank} |
+\urlstyle{same}\href{https://www.linkedin.com/in/joyce-
+shendre/}{\bf Linkedin}} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.66\textwidth} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\subsection{St. Vincent Pallotti college of engineering}
+\descript{Bachelor of Engineering (Hons.) Computer Engineering}
+\location{08 August \textbf{2016} -26 November \textbf{2020} | Nagpur,Maharashtra, IN}
+\textbf{Classification: First Class,CGPA: 8.19/10} 
+\sectionsep 
+\subsection{Dr Babasaheb Ambedkar College of Science}
+\location{Brahmapuri,Chandrapur,Maharashtra,IN}
+\textbf{}{HSC- June 2014 | Percentage- 64}
+\sectionsep 
+\subsection{Nevjabai Hitkarni Girl's High School}
+\textbf{}{SSC- June 2012 | Percentage- 84 }
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Konverge AI Pvt. Ltd.}
+\descript{| Software Engineer }
+\location{Nov \textbf{2020 } – Present | Nagpur,MH, IN}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Developed back-end of full-stack applications by applying experience in
+Node-Js, PostgreSql, MongoDB and JavaScript programming language.
+\item Lead development of the user back-end website in Node-Js.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Sacchidanand U-Tech}
+\descript{| Software Developer Intern}
+\location{June \textbf{2020 } – Oct | Nagpur,MH,IN}
+\begin{tightemize}
+\item Developed REST APIs for Home-Automation System.
+\item Partnered with development team on product development,
+application support plans, and prototype programs. Built project plan,
+designed database for the system.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{ANV Infotech Pvt. Ltd}
+\descript{| Software Developer Intern}
+\location{May \textbf{2019 } - June \textbf{2019 } | Nagpur,MH,IN | Website: HighLand Glory}
+\begin{tightemize}
+\item 
+Built a website for a celebration hall
+named High-Land Glory. The celebration hall required to add booking system
+via calendar displayed on the home page of the website.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Infoverse Tech Services}
+\descript{| Software Developer Intern}
+\location{Dec \textbf{2018 } - Mar \textbf{2019 } | Nagpur,MH,IN | Website: Best in Offers- http://bestinoffers.com/}
+\begin{tightemize}
+\item 
+Built an e- commerce website which fetches
+the best offers from various shopping sites and shows them on a single page.
+\end{tightemize}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{Chat-Bot}
+\descript{| NodeJS, APIs, Heroku}
+\location{May \textbf{2020 }}
+\begin{tightemize}
+\item A chatbot for one to one chatting experience,creating a room, sending user location etc. using web socket packages in NodeJs applications.
+\item The whole end to end solution is deployed on the Heroku and can be accessed on any social messaging service.
+\bf
+\href{https://chat-app-j07.herokuapp.com/}{ChatApp}{}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Anti-Theft Wheel Lock Tracking System}
+\descript{IoT}
+\location{ Oct \textbf{2020 }}
+\begin{tightemize}
+\item This System can be the most efficient tools that can be used to control vehicle encroachment on parking places. With the aim to design and develop GPS based anti-theft wheel lock activity tracker.
+
+\end{tightemize}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{\textbf{Over 5000 lines:}}
+Python 3\textbullet{} JavaScript \textbullet{} C/C++ \textbullet{} \\ 
+\location{\textbf{Over 1000 lines:}}
+MySQL \textbullet{} Kibana \textbullet{}\\
+PostgreSQL \textbullet{}  \\
+\location{\textbf{Familiar:}}
+Flutter \textbullet{} Microsoft Graph APIs \textbullet{}
+ReactJS \textbullet{ }ELK Stack\textbullet{} Shell
+\subsection{VCS \& Build Tools }
+Git \textbullet{} Docker \textbullet{} Github Actions
+\subsection{Cloud Services}
+\location{\textbf{Familiar:}}
+AWS \textbullet{} Heroku
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Activities \& Achievements} 
+
+>Member of Computer Society Of India. \\
+
+>Elected to Co-ordinator for technical fest event
+under CSI in 2018. \\
+>Patent Application On Anti-Theft Wheel Lock Tracking System based on IoT. \\
+>Former team member of the R.T.M.Nagpur University Hockey team.
+>National Level Hockey Player, former captain of Maharashtra team. \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Certifications}
+>Machine Learning A-ZTM: Hands-On Python In Data.
+Oct. 2018 \\
+
+>Machine Learning And Data science,Pro Python- TheTechIntern,Nagpur,June 2019 \\
+
+>Introduction to Machine Learning- NPTEL.
+Oct.2018 \\
+
+>Data Science- Cognitiveclass.ai (IBM). \\
+
+>Data Science Professional Certificate-IBM(In Progress) \\
+>Python for Data Science-Cognitiveclass.ai (IBM). \\
+>C - Programming- Unisoft Technologies.\\
+>Machine Learning(Stanford University)-Coursera.(In Progress) \\
+>Understanding and Visualizing Data with Python-Coursera(In Progress\\
+>Understanding and Visualizing Data with Python-Coursera(In Progress)\\
+
+\end{minipage}%
+\end{document}  
+\documentclass[]{article}
