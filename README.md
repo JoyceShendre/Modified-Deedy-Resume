@@ -2,7 +2,7 @@
 Just tried to modify the famous Deedy resume template for google interview. 
 
 ## Preview
-<img src="" alt="preview" width="500"/>
+<img src="https://github.com/JoyceShendre/Modified-Deedy-Resume/blob/main/Joyce.Shendre_Resume.png" alt="preview" width="500"/>
 
 - Shifted the ordering of the columns of the resume.
 - Changed some items based on personal view.
